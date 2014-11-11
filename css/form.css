@@ -1,0 +1,418 @@
+
+/*******************************************
+				Defaults
+
+Remember to use something like type-scale.com 
+to get your font sizes
+*******************************************/
+*{
+	padding:0;
+	margin: 0;
+}
+html,body{
+background-image:  url("../img/image2.jpg");
+}
+h1{
+	margin-top: 1.5%;
+	margin-left: 2%;
+	text-align: center;
+}
+
+h2{
+	margin-top: 2.5%;
+	margin-left: 2%;
+	text-align:center;
+}
+#travelForm{
+	margin-top: 2%;
+}
+p{
+
+}
+
+/*******************************************
+				Layout
+*******************************************/
+.wrapper{
+	width:100%;
+	margin-top: 1.5%;
+	/*border-radius:9px;*/	
+	color:#D7D7D7;
+	
+}
+.in-wrapper{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 1.5%;
+	background-color: rgba(106,106,106,0.88);
+	
+	border-top: 5px solid rgba(82,82,82,0.92);
+	border-right: 5px solid rgba(82,82,82,0.92);
+	border-bottom: 5px solid rgba(82,82,82,0.92);
+	border-left: 5px solid rgba(82,82,82,0.92);
+}
+.masthead{
+	
+}
+.main{
+	
+}
+.foot{
+	clear: both;
+	margin-left: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+
+/*******************************************
+				Form Styles
+*******************************************/
+
+
+#city1{
+
+	margin-left: 2%;
+	width: 20%;
+	float:left;
+}
+#city2{
+	margin-left: 4%;
+	width: 20%;
+	float:left;
+}
+#date1{
+	margin-left: 5%;
+	width: 17%;
+	float:left;
+	}
+	
+#date2{
+	margin-left: 4.5%;
+	
+	width: 17%;
+	float:left;
+	}	
+	
+.col_adults{
+	padding-top: 3%;
+	margin-left: 2%;
+	width: 100%;
+	height: 100px;
+	clear: both;
+	
+}
+	
+input[type=text],
+input[type=number]{
+	margin: 0;
+	width: 100%;
+	height: 20px;
+	border-radius: 3px;
+}
+input[type=date]{
+	margin: 0;
+	width: 100%;
+	height: 20px;
+	border-radius: 3px;
+}
+input[type=submit],
+input[type=reset]{
+	
+}
+.slider {
+	width: 50%;
+	margin-top:8%;
+	margin-left: 1%;
+	clear:both;
+
+	text-align: center;
+	}
+
+.col_buttons{
+	width: 100%;
+	margin-left: 1%;
+	margin-top:  6%;
+	padding-top: 1%;
+	clear: both;	
+}
+
+label{
+	width: 100%;
+	
+	margin-bottom: 2%;
+	font-size: 1rem;
+	text-align:center;
+}
+
+
+img	
+{
+	margin-left: -90px;
+	margin-top: 25px;
+	position: absolute;
+	width:13px;
+}
+#img1	
+{
+	margin-left: -70px;
+	margin-top: 25px;
+	position: absolute;
+	width:13px;
+}
+
+#img2	
+{
+	margin-left: -100px;
+	margin-top: 24px;
+	position: absolute;
+	width:13px;
+}
+
+#img3	
+{
+	margin-left: -90px;
+	margin-top: 24px;
+	position: absolute;
+	width:13px;
+}
+#img4{
+	margin-left: 2px;
+	margin-top: 4px;
+	position: absolute;
+	width:9px;
+	}
+#departure_dt{
+	padding-left:20px;
+}
+#return_dt{
+	padding-left:20px;
+}
+#destination{
+	padding-left:20px;
+}
+#departure{
+	padding-left:20px;
+}
+
+
+
+/************
+media query
+****************/
+
+
+@media screen and (max-width: 499px) {
+	
+
+#city1{
+
+	margin-left: 1%;
+	margin-top: 4%;
+	width: 89%;
+	float:left;
+}
+
+#city2{
+ 	margin-left: 1%;
+	margin-top: 4%;
+	width: 89%;
+	float:left;
+}
+
+#date1{
+	margin-left: 1%;
+	margin-top: 4%;
+	width: 89%;
+	float:left;
+}
+#date2{
+	margin-left: 1%;
+	margin-top: 4%;
+	width: 89%;
+	float:left;
+	
+}
+.col_adults{
+	padding-top: 3%;
+	margin-left: 2%;
+	margin-bottom:26%;
+	width: 30%;
+	clear: both;
+	float:left;
+	
+}
+
+.slider {
+	width: 93%;
+	margin-top:26%;
+	margin-left: 2%;
+	clear:both;
+	
+	text-align: center;
+	}
+
+.col_buttons{
+	width: 30%;
+	margin-left: 0%;
+	
+	padding-top: 0%;
+	padding-bottom:5%;
+	clear: both;	
+}	
+
+img	
+{
+	margin-left: -90px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#img1	
+{
+	margin-left: -70px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#img2	
+{
+	margin-left: -100px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#img3	
+{
+	margin-left: -90px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#departure_dt
+{
+	padding-left:20px;
+}
+
+#return_dt{
+	padding-left:20px;
+}
+#destination{
+	padding-left:20px;
+}
+#departure{
+	padding-left:20px;
+}
+
+}
+   @media screen and (min-width: 500px) and (max-width: 779px) {
+	   
+#city1{
+
+	margin-left: 2%;
+	
+	width: 42%;
+	float:left;
+}
+
+#city2{
+ 	margin-left: 9%;
+	
+	width: 40%;
+	float:left;
+}
+
+#date1{
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 42%;
+	float:left;
+}
+#date2{
+	margin-left: 9%;
+	margin-top: 2%;
+	width: 40%;
+	float:left;
+	
+}
+.col_adults{
+	padding-top: 3%;
+	margin-left: 2%;
+	margin-bottom:20%;
+	width: 30%;
+	clear: both;
+	float:left;
+	
+}
+
+.slider {
+	width: 93%;
+	margin-top:20%;
+	margin-left: 2%;
+	clear:both;
+	
+	text-align: center;
+	}
+
+.col_buttons{
+	width: 30%;
+	margin-left: 0%;
+	
+	padding-top: 0%;
+	padding-bottom:5%;
+	clear: both;	
+}	
+
+img	
+{
+	margin-left: -90px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#img1	
+{
+	margin-left: -70px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#img2	
+{
+	margin-left: -100px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#img3	
+{
+	margin-left: -90px;
+	margin-top: 25px;
+	position: absolute;
+	width:11px;
+}
+
+#departure_dt
+{
+	padding-left:20px;
+}
+
+#return_dt{
+	padding-left:20px;
+}
+#destination{
+	padding-left:20px;
+}
+#departure{
+	padding-left:20px;
+}
+
+}
+

@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Travel Form</title>
+	<link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+
+    <script src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+    	<div class="in-wrapper">
+		<header class="masthead">
+			<h1>Hotel "Californication!"</h1>
+		</header>
+		<section class="main">
+			<h2>Fill out the form to get best offerings!</h2>
+			<p></p>
+			<form name="travelForm" id="travelForm" action="#" method="post" enctype="application/x-www-form-urlencoded">
+				
+				<div class="formBox" id="city1">
+					<label for="departure">Departure city</label>
+                    <img src="img/city.png" id="img3"/>
+					<input type="text" name="departure" id="departure" placeholder="departure city" />
+				</div>
+				<div class="formBox" id="city2">
+					<label for="destination">Destination city</label>
+                    <img src="img/city.png" id="img2"/>
+					<input type="text" name="destination" id="destination" placeholder="destination city" />
+				</div>
+				
+				<div class="formBox_date" id="date1">
+					<label for="departure_dt">Departure day</label>
+                    <img src="img/calendar.png"/>
+					<input type="date" name="departure_dt" id="departure_dt" placeholder="" />
+                    
+				</div>
+				<div class="formBox_date" id="date2">
+					<label for="return_dt">Return day</label>
+                    <img src="img/calendar.png" id="img1"/>
+					<input type="date" name="return_dt" id="return_dt" placeholder="" />
+				</div>
+				
+				<div class="col_adults">
+                
+					<label for="num_adults" >Number of adults</label>
+                  
+						<select name="num_adults" >
+                     
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+                    
+				</div>
+				
+				
+                <div class= "slider">  
+                	
+                    <div class= "slider_label">
+                	  
+                      <label for="amount">Price range:</label>
+                      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"
+                   
+                	</div>
+					
+                    <div id="slider-range"></div>
+                
+               </div>
+                
+                <div class="col_buttons">
+					<input type="reset" name="btnReset" id="btnReset" value="Reset" />
+					<input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" />
+				</div>
+			
+            </form>
+		
+        </section>
+		
+        <footer class="foot">
+			<p>&copy; 2014 Chicken Stuff Inc.</p>
+		</footer>
+        
+        </div>
+	
+    </div>
+	
+</body>
+</html>
